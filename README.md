@@ -10,3 +10,4 @@
 
 * [Вводная задача](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%201.md) 
 
+* [Логгер](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%201.md) 
