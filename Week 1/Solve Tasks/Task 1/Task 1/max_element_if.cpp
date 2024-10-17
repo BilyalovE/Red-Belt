@@ -1,5 +1,5 @@
 #include "test_runner.h"
-
+#include <algorithm>
 #include <string>
 #include <vector>
 #include <list>
@@ -11,7 +11,26 @@ using namespace std;
 
 template<typename ForwardIterator, typename UnaryPredicate>
 ForwardIterator max_element_if(ForwardIterator first, ForwardIterator last, UnaryPredicate pred) {
-  // Реализуйте эту функцию
+    // если диапазон пустой
+    if (first == last){
+        return last;
+    }
+    // если нет максимума, но диапазон не пустой
+    if (find_if(first, last, pred) == last){
+        return last;
+    }
+    // поиск максимума
+    ForwardIterator max = find_if(first, last, pred);
+    for (auto it = next(max); it != last; it = ++it){
+        auto temp_max = find_if(it, last, pred);
+        if (temp_max == last) {
+                return max;  // Если больше нет элементов, удовлетворяющих предикату
+        }
+        if(*max < *temp_max){
+            max = temp_max;
+        }
+    }
+    return max;
 }
 
 void TestUniqueMax() {
@@ -33,6 +52,7 @@ void TestUniqueMax() {
     неопределенное поведение, если функция max_element_if, к примеру,
     вернула итератор, указывающий на конец контейнера.
   */
+    cout << *max_element_if(numbers.begin(), numbers.end(), IsEven) << endl;
   Assert(
     max_element_if(numbers.begin(), numbers.end(), IsEven) == --numbers.end(),
     "Expect the last element"
