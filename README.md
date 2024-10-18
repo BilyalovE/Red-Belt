@@ -11,4 +11,4 @@
 * [Вводная задача](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%201.md) 
 
 * [Логгер](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%202/Task%202.md) 
-* [Генератор компараторов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%202/Task%202.md)
+* [Генератор компараторов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%203/Task%202.md)
