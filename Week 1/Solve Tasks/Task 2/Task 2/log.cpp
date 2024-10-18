@@ -5,13 +5,17 @@ using namespace std;
 
 class Logger {
 public:
-  explicit Logger(ostream& output_stream) : os(output_stream) {
-  }
-
-  void SetLogLine(bool value) { log_line = value; }
-  void SetLogFile(bool value) { log_file= value; }
-
-  void Log(const string& message);
+    explicit Logger(ostream& output_stream) : os(output_stream) {
+    }
+    
+    void SetLogLine(bool value) { log_line = value; }
+    bool GetLogLine(){ return log_line; }
+    void SetLogFile(bool value) { log_file= value; }
+    bool GetLogFile(){ return log_file; }
+    ostream& GetOs(){ return os; }
+    void Log(const string& message){
+        os << message << "\n";
+    }
 
 private:
   ostream& os;
@@ -19,7 +23,28 @@ private:
   bool log_file = false;
 };
 
-#define LOG(logger, message) ...
+
+
+
+#define LOG(logger, message) {                                  \
+    if(!logger.GetLogLine() && !logger.GetLogFile()) {          \
+        logger.Log(message);                                    \
+    }                                                           \
+    else if(logger.GetLogFile() && !logger.GetLogLine()) {      \
+        logger.GetOs() << __FILE__ << " " ;                     \
+        logger.Log(message);                                    \
+    }                                                           \
+    else if(logger.GetLogFile() && logger.GetLogLine()) {       \
+        logger.GetOs() << __FILE__ << ":"                       \
+                       << __LINE__ << " " ;                     \
+        logger.Log(message);                                    \
+    }                                                           \
+    else {                                                      \
+        logger.GetOs() << "Line "                               \
+        << __LINE__ << " ";                                     \
+        logger.Log(message);                                    \
+    }                                                           \
+}
 
 void TestLog() {
 /* Для написания юнит-тестов в этой задаче нам нужно фиксировать конкретные
