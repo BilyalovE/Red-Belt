@@ -1,5 +1,5 @@
 #pragma once
-
+#include "airline_ticket.h"
 #include <sstream>
 #include <stdexcept>
 #include <iostream>
@@ -9,6 +9,26 @@
 #include <vector>
 
 using namespace std;
+
+bool operator<(const Time& lhs, const Time& rhs){
+    return make_tuple(lhs.hours, lhs.minutes) <
+           make_tuple(rhs.hours, rhs.minutes);
+}
+
+bool operator<(const Date& lhs, const Date& rhs){
+    return make_tuple(lhs.year, lhs.month, lhs.day) <
+           make_tuple(lhs.year, lhs.month, lhs.day);
+}
+
+bool operator==(const Date& lhs, const Date& rhs){
+    return make_tuple(lhs.year, lhs.month, lhs.day) ==
+           make_tuple(lhs.year, lhs.month, lhs.day);
+}
+
+bool operator==(const Time& lhs, const Time& rhs){
+    return make_tuple(lhs.hours, lhs.minutes) ==
+           make_tuple(rhs.hours, rhs.minutes);
+}
 
 template <class T>
 ostream& operator << (ostream& os, const vector<T>& s) {
@@ -50,6 +70,19 @@ ostream& operator << (ostream& os, const map<K, V>& m) {
     os << kv.first << ": " << kv.second;
   }
   return os << "}";
+}
+
+ostream& operator << (ostream& os, const Date& date) {
+    os << date.year << "."
+       << date.month << "."
+       << date.day;
+    return os;
+}
+
+ostream& operator << (ostream& os, const Time& time) {
+    os << time.hours << ":"
+       << time.minutes;
+    return os;
 }
 
 template<class T, class U>

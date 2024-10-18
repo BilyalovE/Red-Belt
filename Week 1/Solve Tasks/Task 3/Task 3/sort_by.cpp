@@ -5,7 +5,21 @@
 #include <numeric>
 using namespace std;
 
-#define SORT_BY(field)  // Реализуйте этот макрос, а также необходимые операторы для классов Date и Time
+#define SORT_BY(field)                                           \
+    [](const AirlineTicket& lhs, const AirlineTicket& rhs){      \
+        return lhs.field < rhs.field;                            \
+    }
+
+void SortTickets(vector<AirlineTicket>& tixs) {
+  stable_sort(begin(tixs), end(tixs), SORT_BY(from));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(to));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(airline));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(departure_date));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(departure_time));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(arrival_date));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(arrival_time));
+  stable_sort(begin(tixs), end(tixs), SORT_BY(price));
+}
 
 void TestSortBy() {
   vector<AirlineTicket> tixs = {
@@ -16,6 +30,10 @@ void TestSortBy() {
     {"CDG", "SVO", "AirFrance", {2018, 3,  1}, {13, 00}, {2018, 3,  1}, {17, 30}, 8000},
   };
 
+  sort(begin(tixs), end(tixs), SORT_BY(departure_time));
+  ASSERT_EQUAL(tixs.front().departure_time, (Time{13, 00}));
+  ASSERT_EQUAL(tixs.back().departure_time, (Time{23, 00}));
+    
   sort(begin(tixs), end(tixs), SORT_BY(price));
   ASSERT_EQUAL(tixs.front().price, 1200);
   ASSERT_EQUAL(tixs.back().price, 9000);
