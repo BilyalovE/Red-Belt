@@ -14,4 +14,6 @@
 * [Генератор компараторов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%203/Task%203.md)
 * [Макрос UPDATE_FIELD](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%204/Task%204.md)
 * [Плохой макрос](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%205/Task%205.md)
+* [Макрос UNIQ_ID](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%206/Task%206.md)
+
 
