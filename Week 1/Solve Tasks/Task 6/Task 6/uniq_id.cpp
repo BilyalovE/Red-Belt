@@ -2,7 +2,10 @@
 #include <vector>
 using namespace std;
 
-#define UNIQ_ID // Реализуйте этот макрос так, чтобы функция main компилировалась
+#define LINE(a) a
+#define TOKEN(a) var##a
+#define VAR(a)  TOKEN(a)
+#define UNIQ_ID  VAR(LINE(__LINE__))
 
 int main() {
   int UNIQ_ID = 0;
