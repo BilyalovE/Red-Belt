@@ -3,8 +3,31 @@
 
 using namespace std;
 
-#define UPDATE_FIELD(ticket, field, values)  // Реализуйте этот макрос, а также необходимые операторы для классов Date и Time
+istream& operator>>(istream& is, Date& date){
+    char delimiter;
+    is >> date.year >> delimiter >> date.month >> delimiter >> date.day;
+    return is;
+}
 
+istream& operator>>(istream& is, Time& time){
+    char delimiter;
+    is >> time.hours >> delimiter >> time.minutes;
+    return is;
+}
+
+#define UPDATE_FIELD(ticket, field, values)                                              \
+{                                                                                        \
+    auto func = [](AirlineTicket& ticket, const map<string, string>& updates){           \
+        map<string, string>::const_iterator it;                                          \
+        it = updates.find(#field);                                                       \
+        if (it != updates.end()){                                                        \
+            istringstream is(it->second);                                                \
+            is >> ticket.field;                                                          \
+        }                                                                                \
+    };                                                                                   \
+    func(ticket, values);                                                                \
+}
+        
 void TestUpdate() {
   AirlineTicket t;
   t.price = 0;
