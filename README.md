@@ -17,6 +17,6 @@
 * [Макрос UNIQ_ID](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%206/Task%206.md)
 * [Таблица](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%207/Task%207.md)
 * [Дек на основе двух векторов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%208/Task%208.md)
-
+* [Шаблон Paginator](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%209/Task%209.md)
 
 
