@@ -1,20 +1,73 @@
 #include "test_runner.h"
-
 #include <numeric>
 #include <iostream>
 #include <vector>
+#include <set>
 #include <string>
+#include <algorithm>
+#include <queue>
 using namespace std;
 
 // Реализуйте шаблон класса Paginator
 
 template <typename Iterator>
-class Paginator {
+class IteratorRange{
+public:
+    IteratorRange(Iterator first_, Iterator last_) :
+            first(first_), last(last_) { }
+    Iterator begin() const { return first; }
+    Iterator end() const { return last; }
+    size_t size() const {return last - first;}
+private:
+    Iterator first, last;
 };
 
-template <typename C>
-??? Paginate(C& c, size_t page_size) {
-  // Реализуйте этот шаблон функции
+template <typename Iterator>
+class Paginator {
+public:
+    Paginator(Iterator first_, Iterator last_,
+              size_t page_size_) :
+    first(first_), last(last_), page_size(page_size_) {
+        size_t num_all_app = last - first;
+        auto begin_iterator_range = first;
+        while (num_all_app > 0) {
+            IteratorRange vec_app = Head(begin_iterator_range, num_all_app);
+            v_page.push_back(vec_app);
+            size_t size_vec_app = vec_app.size();
+            num_all_app -= size_vec_app;
+            begin_iterator_range = next(begin_iterator_range, page_size);
+        }
+    }
+    
+    
+    auto begin() const {
+        return v_page.begin() ;
+    }
+    auto end() const { return  v_page.end() ; }
+    
+    size_t size() const { return  v_page.size(); }
+    
+private:
+    
+    auto Head(Iterator it, size_t num_all_app){
+        return IteratorRange{it, next(it, min(page_size,  num_all_app))};
+    }
+    
+    Iterator first, last;
+    size_t page_size;
+    vector<IteratorRange<Iterator>> v_page;
+};
+
+
+
+template <typename Container>
+auto Paginate(Container& c, size_t page_size) {
+    return Paginator {c.begin(), c.end(), page_size};
+}
+
+template <typename Iterator>
+auto Make_Paginator(Iterator first, Iterator last, size_t page_size){
+    return Paginator<Iterator> { first, last, page_size };
 }
 
 void TestPageCounts() {
@@ -36,13 +89,13 @@ void TestLooping() {
   Paginator<vector<int>::iterator> paginate_v(v.begin(), v.end(), 6);
   ostringstream os;
   for (const auto& page : paginate_v) {
-    for (int x : page) {
-      os << x << ' ';
+    for (auto x : page) {
+        os << x << ' ';
     }
-    os << '\n';
+      os << '\n';
   }
-
-  ASSERT_EQUAL(os.str(), "1 2 3 4 5 6 \n7 8 9 10 11 12 \n13 14 15 \n");
+    ASSERT_EQUAL(os.str(), "1 2 3 4 5 6 \n7 8 9 10 11 12 \n13 14 15 \n");
+   
 }
 
 void TestModification() {
@@ -109,12 +162,13 @@ void TestPagePagination() {
 }
 
 int main() {
-  TestRunner tr;
-  RUN_TEST(tr, TestPageCounts);
-  RUN_TEST(tr, TestLooping);
-  RUN_TEST(tr, TestModification);
-  RUN_TEST(tr, TestPageSizes);
-  RUN_TEST(tr, TestConstContainer);
-  RUN_TEST(tr, TestPagePagination);
+    TestRunner tr;
+    RUN_TEST(tr, TestPageCounts);
+    RUN_TEST(tr, TestLooping);
+    RUN_TEST(tr, TestModification);
+    RUN_TEST(tr, TestPageSizes);
+    RUN_TEST(tr, TestConstContainer);
+    RUN_TEST(tr, TestPagePagination);
 }
+
 
