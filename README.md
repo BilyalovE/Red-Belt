@@ -19,4 +19,12 @@
 * [Дек на основе двух векторов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%208/Task%208.md)
 * [Шаблон Paginator](https://github.com/BilyalovE/Red-Belt/blob/main/Week%201/Tasks/Task%209/Task%209.md)
 
+# Неделя 2
+## <a href="https://disk.yandex.ru/d/o0l0XUEvWggKyQ" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Lecture/week2.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Профайлер](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
+* [Сортировка студентов по рейтингу](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
+
 
