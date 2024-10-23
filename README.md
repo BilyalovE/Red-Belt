@@ -24,7 +24,8 @@
 ## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Lecture/week2.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
-* [Профайлер](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
+* [Профайлер](https://github.com/BilyalovE/Red-Belt/tree/main/Week%202/Solve%20tasks/Profailer/Profailer) 
+
 * [Сортировка студентов по рейтингу](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
 
 
