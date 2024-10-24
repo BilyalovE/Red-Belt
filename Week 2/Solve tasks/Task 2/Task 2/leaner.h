@@ -2,11 +2,12 @@
 #include <algorithm>
 #include <string>
 #include <vector>
+#include <set>
 
 using namespace std;
 class Learner {
  private:
-  vector<string> dict;
+  set<string> dict;
  public:
     int Learn(const vector<string>& words);
     vector<string> KnownWords();

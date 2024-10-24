@@ -41,15 +41,15 @@ int main() {
             }
             {
                 LOG_DURATION("learner.Learn");
-                //cout << learner.Learn(words) << "\n";
-                learner.Learn(words);
+                cout << learner.Learn(words) << "\n";
+                //learner.Learn(words);
             }
         }
-        //cout << "=== known words ===\n";
+        cout << "=== known words ===\n";
         {
             LOG_DURATION("learner.KnownWords");
             for (auto word : learner.KnownWords()) {
-                //cout << word << "\n";
+                cout << word << "\n";
             }
         }
     }
