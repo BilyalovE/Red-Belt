@@ -29,5 +29,6 @@
 * [Сортировка студентов по рейтингу](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
 * [Изучение нового языка](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%202.md) 
 * [Таблица](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%203.md) 
+* [Электронная книга](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%204.md) 
 
 
