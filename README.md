@@ -27,5 +27,6 @@
 * [Профайлер](https://github.com/BilyalovE/Red-Belt/tree/main/Week%202/Solve%20tasks/Profailer/Profailer) 
 
 * [Сортировка студентов по рейтингу](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%201.md) 
+* [Изучение нового языка](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%202.md) 
 
 
