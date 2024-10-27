@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DD6E5D55-0DAF-4576-9242-D5289B329B0C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 4/slow.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "593"
+            endingLineNumber = "593"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678d2a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678d2a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678d2a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678d303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678d303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678dd53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "539A1CA6-0355-49FC-B5F9-4B8CB6453C77 - f88e92791678dd53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 4/slow.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "589"
+            endingLineNumber = "589"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E - f88e92791678d224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E - f88e92791678d224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E - f88e92791678d287"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E - f88e92791678dcb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "218"
+                  endingLineNumber = "218"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "7D47DB8B-42D5-4C09-B242-C3F9091FC94E - f88e92791678dcd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Task 4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%202/Solve%20tasks/Task%204/Task%204/slow.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD4DD7EE-9C1A-4693-8AD5-4D853A4B9470"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 4/slow.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "590"
+            endingLineNumber = "590"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
