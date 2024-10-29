@@ -30,6 +30,6 @@
 * [Изучение нового языка](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%202.md) 
 * [Таблица](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%203.md) 
 * [Электронная книга](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%204.md) 
-* [Система бронирования отелей](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%205.md) 
+* [Система бронирования отелей](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%205/Task%205.md) 
 
 

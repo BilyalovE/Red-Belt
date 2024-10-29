@@ -40,14 +40,14 @@ private:
     class HotelInfo {
     public:
         void Book(const ClientsInfo& client_info){
-            ++cliet_book_num[client_info.client_id_m];
+            ++client_book_num[client_info.client_id_m];
             total_book_rooms += client_info.room_count_m;
             clients_queue.push(client_info);
         }
         
         int Clients(){
             ToolHotel();
-            return static_cast<int>(cliet_book_num.size());
+            return static_cast<int>(client_book_num.size());
         }
         
         int Rooms(){
@@ -57,7 +57,7 @@ private:
 
     private:
         // ключ - клиент, значение - число бронирований у каждого клиента в гостинице
-        map<int, int> cliet_book_num;
+        map<int, int> client_book_num;
         int total_book_rooms = 0;
         queue<ClientsInfo> clients_queue;
         
@@ -66,9 +66,9 @@ private:
                 if (current_time - clients_queue.front().time_m >= time_duration ){
                     total_book_rooms -= clients_queue.front().room_count_m;
                     int client_id = clients_queue.front().client_id_m;
-                    --cliet_book_num[client_id];
-                    if(cliet_book_num[client_id] == 0){
-                        cliet_book_num.erase(client_id);
+                    --client_book_num[client_id];
+                    if(client_book_num[client_id] == 0){
+                        client_book_num.erase(client_id);
                     }
                     clients_queue.pop();
                 }
