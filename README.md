@@ -32,4 +32,10 @@
 * [Электронная книга](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%204/Task%204.md) 
 * [Система бронирования отелей](https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Tasks/Task%205/Task%205.md) 
 
+# Неделя 3
+## <a href="https://disk.yandex.ru/d/_uQhn5W8Jiqt2w" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Lecture/week3.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Пул объектов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%201/Task%201.md) 
 
