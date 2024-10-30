@@ -34,7 +34,7 @@
 
 # Неделя 3
 ## <a href="https://disk.yandex.ru/d/_uQhn5W8Jiqt2w" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%202/Lecture/week3.pdf" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Lecture/week_3.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Пул объектов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%201/Task%201.md) 

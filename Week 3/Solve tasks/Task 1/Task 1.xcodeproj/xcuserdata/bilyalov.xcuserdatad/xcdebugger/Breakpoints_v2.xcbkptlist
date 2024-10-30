@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BEC0A68-74C3-49D8-8C0B-3143A159155D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9089C53B-25D3-4F10-B795-CA05FBE1CADD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 1/object_pool.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "TestObjectPool()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "9089C53B-25D3-4F10-B795-CA05FBE1CADD - 401a0dd9cd34696d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "9089C53B-25D3-4F10-B795-CA05FBE1CADD - 401a0dd9cd34696d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "9089C53B-25D3-4F10-B795-CA05FBE1CADD - 401a0dd9cd3469e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "9089C53B-25D3-4F10-B795-CA05FBE1CADD - 401a0dd9cd3469e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F66F7CC-222C-4160-AC05-5DA0F7A81072"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 1/object_pool.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "TestObjectPool()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6F66F7CC-222C-4160-AC05-5DA0F7A81072 - 401a0dd9cd34696d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "6F66F7CC-222C-4160-AC05-5DA0F7A81072 - 401a0dd9cd34694c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12756D18-ADBA-481F-8A33-62808B811DA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 1/object_pool.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "TestObjectPool()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "804FC182-26B8-46F2-9F67-0944811BF776"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 1/object_pool.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "TestObjectPool()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 1/object_pool.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "TestObjectPool()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "980">
+               </Location>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+               <Location
+                  uuid = "5D254548-A1AE-4F3D-B04C-C3337CB17F75 - 401a0dd9cd3469c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestObjectPool()"
+                  moduleName = "Task 1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%201/Task%201/object_pool.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "1084">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
