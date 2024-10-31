@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CA34247D-21D5-4B5A-B0A0-497B04FA848F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44BA51D1-11D9-482C-8FC2-FCB115F14892"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 2/swap_sort_copy.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "TestSortPointers()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DACE1FF6-2A91-42CE-9B23-75D7A2B406EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 2/swap_sort_copy.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "TestSortPointers()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "DACE1FF6-2A91-42CE-9B23-75D7A2B406EC - 19d691fe0b4636c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestReverseCopy()"
+                  moduleName = "Task 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%202/Task%202/swap_sort_copy.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "DACE1FF6-2A91-42CE-9B23-75D7A2B406EC - 19d691fe0b4636c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestReverseCopy()"
+                  moduleName = "Task 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%202/Task%202/swap_sort_copy.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "DACE1FF6-2A91-42CE-9B23-75D7A2B406EC - 19d691fe0b4636c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestReverseCopy()"
+                  moduleName = "Task 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilyalov/git/Red-Belt/Week%203/Solve%20tasks/Task%202/Task%202/swap_sort_copy.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8578C387-2529-449A-9682-EBFD3C7E6DBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task 2/swap_sort_copy.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
