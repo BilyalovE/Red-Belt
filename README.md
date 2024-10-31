@@ -38,5 +38,6 @@
 ## Задачи
 
 * [Пул объектов](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%201/Task%201.md) 
-* [Работа с указателями](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%202/Task%202.md) 
-* [Пишем свой вектор](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md) 
+* [Работа с указателями](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%202/Task%202.md) 
+* [Пишем свой вектор](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md) 
+
