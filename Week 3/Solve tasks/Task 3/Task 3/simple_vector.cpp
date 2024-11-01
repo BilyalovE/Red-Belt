@@ -36,23 +36,11 @@ void TestPushBack() {
   ASSERT(equal(begin(v), end(v), begin(expected)));
 }
 
-template <typename T>
-void Print(const SimpleVector<T>& v){
-    for (auto& i : v){
-        cout << i << " ";
-    }
-    
-    cout << "\n";
-}
+
 
 int main() {
-    SimpleVector<int> v;
-    for (int i = 10; i >= 1; --i) {
-        v.PushBack(i);
-    }
-    Print(v);
-//  TestRunner tr;
-//  RUN_TEST(tr, TestConstruction);
-//  RUN_TEST(tr, TestPushBack);
+  TestRunner tr;
+  RUN_TEST(tr, TestConstruction);
+  RUN_TEST(tr, TestPushBack);
   return 0;
 }
