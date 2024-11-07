@@ -15,11 +15,12 @@ public:
             throw invalid_argument(str_error);
         }
         else{
+            end_ = data_ + a_size;
             size_array = a_size;
         }
     }
     typename array<T, N>::iterator GetHead(){
-        return stackVector.begin();
+        return data;
     }
     
     T& operator[](size_t index){
@@ -41,17 +42,17 @@ public:
             throw range_error(str_error.str());
         }
     }
-    typename array<T, N>::iterator begin(){
-        return stackVector.begin();
+    T* begin(){
+        return data_;
     }
-    typename array<T, N>::iterator end(){
-        return stackVector.begin() + size_array;
+    T* end(){
+        return end_;
     }
-    const typename array<T, N>::iterator begin() const {
-        return stackVector.begin();
+    const T* begin() const {
+        return data_;
     }
-    const typename array<T, N>::iterator end() const {
-        return stackVector.begin() + size_array;
+    const T* end() const {
+        return end_;
     }
 
     size_t Size() const {
@@ -63,6 +64,7 @@ public:
 
     void PushBack(const T& value){
         ++size_array;
+        ++end_;
         if(size_array <= capacity){
             stackVector[size_array - 1] = value;
         }
@@ -75,6 +77,7 @@ public:
     T PopBack(){
         if(size_array != 0){
             --size_array;
+            --end_;
             return stackVector[size_array];
         }
         else{
@@ -85,6 +88,8 @@ public:
 
 private:
     const size_t capacity = N;
+    T* data_ = stackVector.begin();
+    T* end_;
     size_t size_array;
     array<T, N> stackVector;
 };

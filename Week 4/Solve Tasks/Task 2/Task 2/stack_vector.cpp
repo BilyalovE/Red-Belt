@@ -8,6 +8,16 @@
 #include <sstream>
 using namespace std;
 
+template <typename T, size_t N>
+void Print(const StackVector<T, N>& v){
+    for (auto it = v.begin(); it != v.end(); ++it){
+        cout << *it << " ";
+    }
+    cout << "\n";
+}
+
+
+
 void TestConstruction() {
   StackVector<int, 10> v;
   ASSERT_EQUAL(v.Size(), 0u);
@@ -72,6 +82,12 @@ void TestPopBack() {
 }
 
 int main() {
+    StackVector<int, 5> v;
+    for (size_t i = 1; i <= v.Capacity(); ++i) {
+        v.PushBack(i);
+    }
+    
+    Print(v);
     {
         TestRunner tr;
         RUN_TEST(tr, TestConstruction);
