@@ -42,4 +42,12 @@
 * [Пишем свой вектор](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md) 
 * [Односвязный список](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md) 
 
+# Неделя 4
+## <a href="https://disk.yandex.ru/d/_uQhn5W8Jiqt2w" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Lecture/week_3.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Спортсмены](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%201/Task%201.md) 
+ * [StackVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%202/Task%202.md) 
+
 
