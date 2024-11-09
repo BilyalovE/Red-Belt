@@ -50,4 +50,5 @@
 * [Спортсмены](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%201/Task%201.md) 
 * [StackVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%202/Task%202.md) 
 * [Translator](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%203/Task%203.md) 
-
+* [AirportCounter](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%204/Task%204.md) 
+* [Текстовый редактор](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%204/Task%204.md) 

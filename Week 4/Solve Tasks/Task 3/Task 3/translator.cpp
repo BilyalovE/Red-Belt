@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// Первый вариант с линейной сложностью 
+// Первый вариант с линейной сложностью
 //class Translator {
 //public:
 //    void Add(string_view source, string_view target){
