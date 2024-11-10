@@ -1,7 +1,6 @@
 #include "test_runner.h"
 #include "http_request.h"
 #include "stats.h"
-
 #include <map>
 #include <string_view>
 using namespace std;
@@ -9,6 +8,11 @@ using namespace std;
 Stats ServeRequests(istream& input) {
   Stats result;
   for (string line; getline(input, line); ) {
+    // Удаление ведущих пробелов
+    size_t first_non_space = line.find_first_not_of(' ');
+    if (first_non_space != string::npos) {
+        line = line.substr(first_non_space);
+    }
     const HttpRequest req = ParseRequest(line);
     result.AddUri(req.uri);
     result.AddMethod(req.method);
@@ -22,6 +26,7 @@ void TestBasic() {
     POST /order HTTP/1.1
     POST /product HTTP/1.1
     POST /product HTTP/1.1
+    
     POST /product HTTP/1.1
     GET /order HTTP/1.1
     PUT /product HTTP/1.1
@@ -39,22 +44,23 @@ void TestBasic() {
     {"PUT", 1},
     {"POST", 4},
     {"DELETE", 1},
-    {"UNKNOWN", 1},
+    {"UNKNOWN", 2},
   };
+
   const map<string_view, int> expected_url_count = {
     {"/", 4},
     {"/order", 2},
     {"/product", 5},
     {"/basket", 1},
     {"/help", 1},
-    {"unknown", 2},
+    {"unknown", 3},
   };
 
   istringstream is(input);
   const Stats stats = ServeRequests(is);
-
-  ASSERT_EQUAL(stats.GetMethodStats(), expected_method_count);
   ASSERT_EQUAL(stats.GetUriStats(), expected_url_count);
+  ASSERT_EQUAL(stats.GetMethodStats(), expected_method_count);
+  
 }
 
 void TestAbsentParts() {
@@ -81,6 +87,7 @@ void TestAbsentParts() {
   ASSERT_EQUAL(default_constructed.GetMethodStats(), expected_method_count);
   ASSERT_EQUAL(default_constructed.GetUriStats(), expected_url_count);
 }
+
 
 int main() {
   TestRunner tr;
