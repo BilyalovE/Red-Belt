@@ -43,8 +43,8 @@
 * [Односвязный список](https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md) 
 
 # Неделя 4
-## <a href="https://disk.yandex.ru/d/_uQhn5W8Jiqt2w" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%203/Lecture/week_3.pdf" style="color: black">Конспект лекций</a>
+## <a href="https://disk.yandex.ru/d/Xi3VM5zszXE7lA" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Lecture/week_4.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Спортсмены](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%201/Task%201.md) 
@@ -54,3 +54,14 @@
 * [Текстовый редактор](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%205/Task%205.md) 
 * [Статистика web-сервера](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%206/Task%206.md) 
 * [Класс StringSet](https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Tasks/Task%207/Task%207.md) 
+
+# Неделя 5
+## <a href="https://disk.yandex.ru/d/rPrX05vVXM1GKw" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Red-Belt/blob/main/Week%204/Lecture/week_5.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Считалка Иосифа](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%201/Task%201.md) 
+* [Группировка строк](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%202/Task%202.md) 
+* [Оператор присваивания для SimpleVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%203/Task%203.md) 
+
+
