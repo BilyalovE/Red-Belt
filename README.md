@@ -63,5 +63,7 @@
 * [Считалка Иосифа](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%201/Task%201.md) 
 * [Группировка строк](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%202/Task%202.md) 
 * [Оператор присваивания для SimpleVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%203/Task%203.md) 
+* [Разбиение на предложения](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%204/Task%204.md) 
+* [Move-семантика в SimpleVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%205/Task%205.md) 
 
-
+

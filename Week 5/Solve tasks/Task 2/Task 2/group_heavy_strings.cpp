@@ -28,13 +28,8 @@ vector<Group<String>> GroupHeavyStrings(vector<String> strings) { //O(N*M*K) = 1
   // Напишите реализацию функции,
   // использовав не более 1 копирования каждого символа
     map<set<Char<String>>, Group<String>> map_groups;
-    set<Char<String>> group_in_word;
     for(auto& word : strings){  //O(N) N = 100000
-        group_in_word.clear();
-        for (auto Ch : word){    //O(M) M = 100
-            group_in_word.insert(Ch); //O(K)  K = 100
-         }
-        map_groups[move(group_in_word)].push_back(move(word));
+        map_groups[{word.begin(), word.end()}].push_back(move(word));
     }
     vector<Group<String>> res_group;
     res_group.reserve(map_groups.size());
