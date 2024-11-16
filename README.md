@@ -65,5 +65,6 @@
 * [Оператор присваивания для SimpleVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%203/Task%203.md) 
 * [Разбиение на предложения](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%204/Task%204.md) 
 * [Move-семантика в SimpleVector](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%205/Task%205.md) 
-
+* [Сортировка слиянием — 3](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%206/Task%206.md) 
+* [Контейнер с приоритетами](https://github.com/BilyalovE/Red-Belt/blob/main/Week%205/Tasks/Task%207/Task%207.md) 
 

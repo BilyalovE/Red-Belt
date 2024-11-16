@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+#include <numeric>
 #include <string>
 using namespace std;
 
@@ -56,10 +57,18 @@ void TestNoCopy() {
   }
 }
 
+template <typename T>
+void PrintVector(const SimpleVector<T>& vec){
+    for (const T& v : vec){
+        cout << v << " ";
+    }
+    cout << endl;
+}
+
 int main() {
-  TestRunner tr;
-  RUN_TEST(tr, TestConstruction);
-  RUN_TEST(tr, TestPushBack);
-  RUN_TEST(tr, TestNoCopy);
+    TestRunner tr;
+    RUN_TEST(tr, TestConstruction);
+    RUN_TEST(tr, TestPushBack);
+    RUN_TEST(tr, TestNoCopy);
   return 0;
 }
